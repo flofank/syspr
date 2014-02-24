@@ -23,3 +23,1726 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c"
 gcc -o "Hello World.exe" main.o 
 Info: Nothing to build for Hello World
 Info: Nothing to build for Hello World
+10:22:03 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:12:2: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+  printf(*p);
+  ^
+In file included from ..\main.c:7:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\main.c:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:22:53 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:13:2: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+  printf(*p);
+  ^
+In file included from ..\main.c:7:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\main.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:23:11 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:12:2: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+  printf(*p);
+  ^
+In file included from ..\main.c:7:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\main.c:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:24:26 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:14:2: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+  printf(*p);
+  ^
+In file included from ..\main.c:7:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+10:24:59 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -o "Hello World.exe" main.o 
+Info: Nothing to build for Hello World
+10:25:30 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:12:7: warning: unused variable 'c' [-Wunused-variable]
+  char c = 'x';
+       ^
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+Info: Nothing to build for Hello World
+10:25:39 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:13:8: warning: unused variable 'p' [-Wunused-variable]
+  char *p = &c;
+        ^
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+Info: Nothing to build for Hello World
+10:25:47 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:14:2: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+  printf(*p);
+  ^
+In file included from ..\main.c:7:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:26:00 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:26:15 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+Info: Nothing to build for Hello World
+10:26:42 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:15:2: warning: passing argument 1 of 'printf' from incompatible pointer type [enabled by default]
+  printf(&p);
+  ^
+In file included from ..\main.c:7:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:38:20 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:38:21 **** Rebuild of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:4:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main () {
+ ^
+..\main.c: In function 'main':
+..\main.c:9:2: warning: too many arguments for format [-Wformat-extra-args]
+  printf("Die SUmme der Zahlen von 1 bis %d ist &d\n", MAXIMUM, j);
+  ^
+..\main.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+Info: Nothing to build for Uebung2
+10:38:33 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:4:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main () {
+ ^
+..\main.c: In function 'main':
+..\main.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+10:41:45 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:4:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main () {
+ ^
+..\main.c: In function 'main':
+..\main.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+10:42:05 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:4:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main () {
+ ^
+..\main.c: In function 'main':
+..\main.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+10:43:14 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:4:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main () {
+ ^
+..\main.c: In function 'main':
+..\main.c:5:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c: At top level:
+..\main.c:8:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg1() {
+ ^
+..\main.c: In function 'main':
+..\main.c:6:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg1':
+..\main.c:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+10:43:26 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:14:2: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+  printf(*p);
+  ^
+In file included from ..\main.c:7:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Hello World
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Hello World
+Info: Nothing to build for Uebung2
+10:43:54 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:4:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main () {
+ ^
+..\main.c: In function 'main':
+..\main.c:5:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c: At top level:
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg1() {
+ ^
+..\main.c: In function 'aufg1':
+..\main.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+10:45:55 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main () {
+ ^
+..\main.c: In function 'main':
+..\main.c:6:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:7:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:10:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg1() {
+ ^
+..\main.c:18:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg2() {
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:28:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg1':
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c:27:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+10:47:18 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:6:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:7:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:10:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg1() {
+ ^
+..\main.c:18:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg2() {
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:28:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg1':
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c:27:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+10:47:26 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:6:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c: At top level:
+..\main.c:10:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg1() {
+ ^
+..\main.c:18:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg2() {
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:28:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg1':
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c:27:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+10:47:41 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:6:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c: At top level:
+..\main.c:10:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg1() {
+ ^
+..\main.c:18:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg2() {
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:28:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg1':
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c:27:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+10:48:06 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c:15:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg1() {
+ ^
+..\main.c:18:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg2() {
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:28:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg1':
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c:27:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+10:48:33 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c: At top level:
+..\main.c:15:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg1() {
+ ^
+..\main.c:23:1: warning: return type defaults to 'int' [-Wreturn-type]
+ aufg2() {
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:33:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg1':
+..\main.c:21:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c:32:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+10:49:10 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:33:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:32:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+Info: Nothing to build for Hello World
+10:49:45 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:33:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:32:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+Info: Nothing to build for Uebung2
+10:50:34 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:33:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:32:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+10:51:03 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg1':
+..\main.c:17:8: warning: 'j' is used uninitialized in this function [-Wuninitialized]
+  printf(j + "\n");
+        ^
+..\main.c: In function 'aufg2':
+..\main.c:33:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+10:51:14 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg1':
+..\main.c:17:8: warning: 'j' is used uninitialized in this function [-Wuninitialized]
+  printf("%d\n", j);
+        ^
+..\main.c: In function 'aufg2':
+..\main.c:33:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+Info: Nothing to build for Hello World
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Hello World
+10:52:13 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:52:54 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:53:34 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:16:2: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+  printf(*p);
+  ^
+In file included from ..\main.c:7:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\main.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:53:49 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:16:2: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+  printf(*p);
+  ^
+In file included from ..\main.c:7:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\main.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:54:03 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:54:22 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:54:47 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+Info: Nothing to build for Uebung2
+10:56:22 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:23:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:12:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:33:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:32:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+10:56:34 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:23:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:12:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:32:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+10:56:47 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:23:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:12:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:32:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+10:56:55 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:23:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:12:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:26:7: warning: unused variable 'p' [-Wunused-variable]
+  int *p;
+       ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+10:57:09 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:23:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:12:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+10:57:19 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:23:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:12:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:25:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = MAXIMUM2;
+      ^
+..\main.c:24:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 0;
+      ^
+..\main.c: At top level:
+..\main.c:34:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+10:57:27 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:23:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:12:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:25:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = MAXIMUM2;
+      ^
+..\main.c:24:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 0;
+      ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+10:57:34 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:23:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:12:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:26:7: warning: unused variable 'p' [-Wunused-variable]
+  int *p;
+       ^
+..\main.c:25:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = MAXIMUM2;
+      ^
+..\main.c:24:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 0;
+      ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+10:57:41 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:23:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:12:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:34:1: error: expected declaration or statement at end of input
+ }
+ ^
+..\main.c:26:7: warning: unused variable 'p' [-Wunused-variable]
+  int *p;
+       ^
+..\main.c:25:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = MAXIMUM2;
+      ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+10:57:49 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:23:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:12:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:26:7: warning: unused variable 'p' [-Wunused-variable]
+  int *p;
+       ^
+..\main.c:25:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = MAXIMUM2;
+      ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+10:57:55 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:23:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:12:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:26:7: warning: unused variable 'p' [-Wunused-variable]
+  int *p;
+       ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+10:58:53 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:23:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:12:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:29:3: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+   printf(i);
+   ^
+In file included from ..\main.c:1:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\main.c:26:7: warning: unused variable 'p' [-Wunused-variable]
+  int *p;
+       ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+10:59:07 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:15:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:11:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:23:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:12:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:26:7: warning: unused variable 'p' [-Wunused-variable]
+  int *p;
+       ^
+..\main.c: In function 'main':
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+11:00:09 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:6:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:7:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:10:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:6:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:18:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:7:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:21:7: warning: unused variable 'p' [-Wunused-variable]
+  int *p;
+       ^
+..\main.c: In function 'main':
+..\main.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+11:00:30 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:6:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:7:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:10:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:6:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:18:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:7:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:21:7: warning: unused variable 'p' [-Wunused-variable]
+  int *p;
+       ^
+..\main.c: In function 'main':
+..\main.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+11:00:40 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:6:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:7:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:10:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:6:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:18:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:7:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:28:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:27:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+11:01:00 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:6:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:7:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:10:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:6:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:18:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:7:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'main':
+..\main.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:27:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+11:01:09 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:6:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:7:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:10:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:6:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:18:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:7:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:28:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:28:8: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  printf("i = %d\n", p);
+        ^
+gcc -o Uebung2.exe main.o 
+11:01:31 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+11:01:31 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:6:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:7:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:10:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:6:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:18:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:7:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:28:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.c: In function 'aufg2':
+..\main.c:27:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = i;
+     ^
+gcc -o Uebung2.exe main.o 
+11:02:07 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:6:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:7:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:10:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:6:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:18:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:7:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:27:4: warning: assignment makes pointer from integer without a cast [enabled by default]
+  p = i;
+    ^
+..\main.c:28:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+11:02:33 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:6:2: warning: implicit declaration of function 'aufg1' [-Wimplicit-function-declaration]
+  aufg1();
+  ^
+..\main.c:7:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:10:6: warning: conflicting types for 'aufg1' [enabled by default]
+ void aufg1() {
+      ^
+..\main.c:6:2: note: previous implicit declaration of 'aufg1' was here
+  aufg1();
+  ^
+..\main.c:18:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:7:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:28:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+11:13:12 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:8:2: warning: implicit declaration of function 'aufg3' [-Wimplicit-function-declaration]
+  aufg3();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:29:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: At top level:
+..\main.c:32:6: warning: conflicting types for 'aufg3' [enabled by default]
+ void aufg3() {
+      ^
+..\main.c:8:2: note: previous implicit declaration of 'aufg3' was here
+  aufg3();
+  ^
+..\main.c: In function 'aufg3':
+..\main.c:33:2: error: 'for' loop initial declarations are only allowed in C99 mode
+  for (char c = 0; c < 255; c++) {
+  ^
+..\main.c:33:2: note: use option -std=c99 or -std=gnu99 to compile your code
+..\main.c:34:3: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+   printf(c);
+   ^
+In file included from ..\main.c:1:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\main.c: In function 'main':
+..\main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for Hello World
+11:13:17 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:8:2: warning: implicit declaration of function 'aufg3' [-Wimplicit-function-declaration]
+  aufg3();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:29:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: At top level:
+..\main.c:32:6: warning: conflicting types for 'aufg3' [enabled by default]
+ void aufg3() {
+      ^
+..\main.c:8:2: note: previous implicit declaration of 'aufg3' was here
+  aufg3();
+  ^
+..\main.c: In function 'aufg3':
+..\main.c:33:2: error: 'for' loop initial declarations are only allowed in C99 mode
+  for (char c = 0; c < 255; c++) {
+  ^
+..\main.c:33:2: note: use option -std=c99 or -std=gnu99 to compile your code
+..\main.c:34:3: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+   printf(c);
+   ^
+In file included from ..\main.c:1:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\main.c: In function 'main':
+..\main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for Hello World
+11:13:35 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:8:2: warning: implicit declaration of function 'aufg3' [-Wimplicit-function-declaration]
+  aufg3();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:29:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: At top level:
+..\main.c:32:6: warning: conflicting types for 'aufg3' [enabled by default]
+ void aufg3() {
+      ^
+..\main.c:8:2: note: previous implicit declaration of 'aufg3' was here
+  aufg3();
+  ^
+..\main.c: In function 'aufg3':
+..\main.c:35:3: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+   printf(c);
+   ^
+In file included from ..\main.c:1:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\main.c: In function 'main':
+..\main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+Info: Nothing to build for Uebung2
+11:13:49 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:8:2: warning: implicit declaration of function 'aufg3' [-Wimplicit-function-declaration]
+  aufg3();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:29:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: At top level:
+..\main.c:32:6: warning: conflicting types for 'aufg3' [enabled by default]
+ void aufg3() {
+      ^
+..\main.c:8:2: note: previous implicit declaration of 'aufg3' was here
+  aufg3();
+  ^
+..\main.c: In function 'main':
+..\main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+11:14:27 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:8:2: warning: implicit declaration of function 'aufg3' [-Wimplicit-function-declaration]
+  aufg3();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:29:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: At top level:
+..\main.c:32:6: warning: conflicting types for 'aufg3' [enabled by default]
+ void aufg3() {
+      ^
+..\main.c:8:2: note: previous implicit declaration of 'aufg3' was here
+  aufg3();
+  ^
+..\main.c: In function 'main':
+..\main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
