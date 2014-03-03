@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<Aufgabe4.h>
+
+void Aufgabe4() {
+	float f = 3.1416;
+	char string[] = "asd";
+	int numarray[5] = {1,2,3,4,5};
+	Struktur struc = new
+
+}
+
+typedef struct Struktur {
+	char bez[];
+	int id;
+};

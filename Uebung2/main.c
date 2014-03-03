@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "Aufgabe4.h"
 #define MAXIMUM1 10
 #define MAXIMUM2 5
 
@@ -6,6 +7,7 @@ main() {
 //	aufg1();
 //	aufg2();
 	aufg3();
+//	Aufgabe4();
 }
 
 void aufg1() {
@@ -26,12 +28,16 @@ void aufg2() {
 		printf("i=%d, j = %d\n", i, j);
 	}
 	p = &i;
-	printf("i = %d\n", p);
+	printf("i = %d\n", *p);
 }
 
 void aufg3() {
 	int c;
 	for (c = 0; c < 255; c++) {
-		printf("%c" , c);
+		printf("%0*d: %c |" , 3, c, c);
+		if (c % 16 == 15) {
+			printf("\n");
+		}
 	}
+	getchar();
 }

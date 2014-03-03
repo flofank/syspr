@@ -1746,3 +1746,1265 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c"
  }
  ^
 gcc -o Uebung2.exe main.o 
+08:10:35 **** Rebuild of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:8:2: warning: implicit declaration of function 'aufg3' [-Wimplicit-function-declaration]
+  aufg3();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:29:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: At top level:
+..\main.c:32:6: warning: conflicting types for 'aufg3' [enabled by default]
+ void aufg3() {
+      ^
+..\main.c:8:2: note: previous implicit declaration of 'aufg3' was here
+  aufg3();
+  ^
+..\main.c: In function 'main':
+..\main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+08:50:03 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:8:2: warning: implicit declaration of function 'aufg3' [-Wimplicit-function-declaration]
+  aufg3();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:29:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: At top level:
+..\main.c:32:6: warning: conflicting types for 'aufg3' [enabled by default]
+ void aufg3() {
+      ^
+..\main.c:8:2: note: previous implicit declaration of 'aufg3' was here
+  aufg3();
+  ^
+..\main.c: In function 'main':
+..\main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+08:50:47 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:8:2: warning: implicit declaration of function 'aufg3' [-Wimplicit-function-declaration]
+  aufg3();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:29:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: At top level:
+..\main.c:32:6: warning: conflicting types for 'aufg3' [enabled by default]
+ void aufg3() {
+      ^
+..\main.c:8:2: note: previous implicit declaration of 'aufg3' was here
+  aufg3();
+  ^
+..\main.c: In function 'main':
+..\main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+08:51:11 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:8:2: warning: implicit declaration of function 'aufg3' [-Wimplicit-function-declaration]
+  aufg3();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:29:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: At top level:
+..\main.c:32:6: warning: conflicting types for 'aufg3' [enabled by default]
+ void aufg3() {
+      ^
+..\main.c:8:2: note: previous implicit declaration of 'aufg3' was here
+  aufg3();
+  ^
+..\main.c: In function 'main':
+..\main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+08:51:25 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:8:2: warning: implicit declaration of function 'aufg3' [-Wimplicit-function-declaration]
+  aufg3();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:29:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: At top level:
+..\main.c:32:6: warning: conflicting types for 'aufg3' [enabled by default]
+ void aufg3() {
+      ^
+..\main.c:8:2: note: previous implicit declaration of 'aufg3' was here
+  aufg3();
+  ^
+..\main.c: In function 'main':
+..\main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+09:48:40 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:7:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:19:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:7:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:29:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("i = %d\n", p);
+  ^
+..\main.c: In function 'main':
+..\main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+09:50:20 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:7:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:19:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:7:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'aufg2':
+..\main.c:29:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
+  printf("i = %d\n", &p);
+  ^
+..\main.c: In function 'main':
+..\main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+09:50:30 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:5:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:7:2: warning: implicit declaration of function 'aufg2' [-Wimplicit-function-declaration]
+  aufg2();
+  ^
+..\main.c: At top level:
+..\main.c:19:6: warning: conflicting types for 'aufg2' [enabled by default]
+ void aufg2() {
+      ^
+..\main.c:7:2: note: previous implicit declaration of 'aufg2' was here
+  aufg2();
+  ^
+..\main.c: In function 'main':
+..\main.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o 
+10:03:54 **** Rebuild of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" main.o 
+10:03:55 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c:2:21: fatal error: Aufgabe4.h: No such file or directory
+ #include<Aufgabe4.h>
+                     ^
+compilation terminated.
+Info: Nothing to build for Hello World
+10:04:00 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c:4:7: error: flexible array member not at end of struct
+  char bez[];
+       ^
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:13:2: error: 'struc' undeclared (first use in this function)
+  struc.bez =
+  ^
+..\Aufgabe4.c:13:2: note: each undeclared identifier is reported only once for each function it appears in
+..\Aufgabe4.c:15:1: error: expected expression before '}' token
+ }
+ ^
+..\Aufgabe4.c:12:16: warning: unused variable 'paul' [-Wunused-variable]
+  struct Person paul;
+                ^
+..\Aufgabe4.c:11:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:10:7: warning: unused variable 'string' [-Wunused-variable]
+  char string[] = "asd";
+       ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+Info: Nothing to build for Hello World
+10:04:14 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:8:16: error: storage size of 'paul' isn't known
+  struct Person paul;
+                ^
+..\Aufgabe4.c:9:2: error: 'struc' undeclared (first use in this function)
+  struc.bez =
+  ^
+..\Aufgabe4.c:9:2: note: each undeclared identifier is reported only once for each function it appears in
+..\Aufgabe4.c:11:1: error: expected expression before '}' token
+ }
+ ^
+..\Aufgabe4.c:8:16: warning: unused variable 'paul' [-Wunused-variable]
+  struct Person paul;
+                ^
+..\Aufgabe4.c:7:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:6:7: warning: unused variable 'string' [-Wunused-variable]
+  char string[] = "asd";
+       ^
+..\Aufgabe4.c:5:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:14:7: error: flexible array member not at end of struct
+  char bez[];
+       ^
+Info: Nothing to build for Hello World
+10:05:07 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:8:16: error: storage size of 'paul' isn't known
+  struct Person paul;
+                ^
+..\Aufgabe4.c:11:1: error: expected expression before '}' token
+ }
+ ^
+..\Aufgabe4.c:8:16: warning: unused variable 'paul' [-Wunused-variable]
+  struct Person paul;
+                ^
+..\Aufgabe4.c:7:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:6:7: warning: unused variable 'string' [-Wunused-variable]
+  char string[] = "asd";
+       ^
+..\Aufgabe4.c:5:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+Info: Nothing to build for Hello World
+10:05:17 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:8:16: error: storage size of 'paul' isn't known
+  struct Person paul;
+                ^
+..\Aufgabe4.c:11:1: error: expected expression before '}' token
+ }
+ ^
+..\Aufgabe4.c:8:16: warning: unused variable 'paul' [-Wunused-variable]
+  struct Person paul;
+                ^
+..\Aufgabe4.c:7:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:6:7: warning: unused variable 'string' [-Wunused-variable]
+  char string[] = "asd";
+       ^
+..\Aufgabe4.c:5:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:14:7: error: flexible array member not at end of struct
+  char name[];
+       ^
+Info: Nothing to build for Hello World
+10:05:26 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:8:16: error: storage size of 'paul' isn't known
+  struct Person paul;
+                ^
+..\Aufgabe4.c:11:1: error: expected expression before '}' token
+ }
+ ^
+..\Aufgabe4.c:8:16: warning: unused variable 'paul' [-Wunused-variable]
+  struct Person paul;
+                ^
+..\Aufgabe4.c:7:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:6:7: warning: unused variable 'string' [-Wunused-variable]
+  char string[] = "asd";
+       ^
+..\Aufgabe4.c:5:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:14:7: error: flexible array member not at end of struct
+  char name[];
+       ^
+Info: Nothing to build for Hello World
+10:05:34 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:8:16: error: storage size of 'paul' isn't known
+  struct Person paul;
+                ^
+..\Aufgabe4.c:11:1: error: expected expression before '}' token
+ }
+ ^
+..\Aufgabe4.c:8:16: warning: unused variable 'paul' [-Wunused-variable]
+  struct Person paul;
+                ^
+..\Aufgabe4.c:7:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:6:7: warning: unused variable 'string' [-Wunused-variable]
+  char string[] = "asd";
+       ^
+..\Aufgabe4.c:5:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+Info: Nothing to build for Hello World
+10:06:28 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:8:16: error: storage size of 'paul' isn't known
+  struct Person paul;
+                ^
+..\Aufgabe4.c:11:1: error: expected expression before '}' token
+ }
+ ^
+..\Aufgabe4.c:8:16: warning: unused variable 'paul' [-Wunused-variable]
+  struct Person paul;
+                ^
+..\Aufgabe4.c:7:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:6:7: warning: unused variable 'string' [-Wunused-variable]
+  char string[] = "asd";
+       ^
+..\Aufgabe4.c:5:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+Info: Nothing to build for Hello World
+10:06:35 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:8:16: error: storage size of 'paul' isn't known
+  struct Person paul;
+                ^
+..\Aufgabe4.c:11:1: error: expected expression before '}' token
+ }
+ ^
+..\Aufgabe4.c:8:16: warning: unused variable 'paul' [-Wunused-variable]
+  struct Person paul;
+                ^
+..\Aufgabe4.c:7:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:6:7: warning: unused variable 'string' [-Wunused-variable]
+  char string[] = "asd";
+       ^
+..\Aufgabe4.c:5:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+Info: Nothing to build for Hello World
+10:06:40 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:8:16: error: storage size of 'paul' isn't known
+  struct Person paul;
+                ^
+..\Aufgabe4.c:8:16: warning: unused variable 'paul' [-Wunused-variable]
+..\Aufgabe4.c:7:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:6:7: warning: unused variable 'string' [-Wunused-variable]
+  char string[] = "asd";
+       ^
+..\Aufgabe4.c:5:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+Info: Nothing to build for Hello World
+10:08:23 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:16: warning: unused variable 'personen' [-Wunused-variable]
+  struct Person personen[2] = {paul, peter};
+                ^
+..\Aufgabe4.c:11:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:10:7: warning: unused variable 'string' [-Wunused-variable]
+  char string[] = "asd";
+       ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+Info: Nothing to build for Hello World
+10:09:05 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c:6:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:12:2: error: unknown type name 'Person'
+  Person paul;
+  ^
+..\Aufgabe4.c:13:2: error: unknown type name 'Person'
+  Person peter;
+  ^
+..\Aufgabe4.c:14:2: error: unknown type name 'Person'
+  Person personen[2] = {paul, peter};
+  ^
+..\Aufgabe4.c:14:9: warning: unused variable 'personen' [-Wunused-variable]
+  Person personen[2] = {paul, peter};
+         ^
+..\Aufgabe4.c:11:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:10:7: warning: unused variable 'string' [-Wunused-variable]
+  char string[] = "asd";
+       ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+10:09:45 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:16: warning: unused variable 'personen' [-Wunused-variable]
+  struct Person personen[2] = {paul, peter};
+                ^
+..\Aufgabe4.c:11:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+Info: Nothing to build for Hello World
+10:10:10 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c:8:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\Aufgabe4.c: In function 'main':
+..\Aufgabe4.c:9:2: warning: implicit declaration of function 'Aufgabe4' [-Wimplicit-function-declaration]
+  Aufgabe4();
+  ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:12:6: warning: conflicting types for 'Aufgabe4' [enabled by default]
+ void Aufgabe4() {
+      ^
+..\Aufgabe4.c:9:2: note: previous implicit declaration of 'Aufgabe4' was here
+  Aufgabe4();
+  ^
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:18:16: warning: unused variable 'personen' [-Wunused-variable]
+  struct Person personen[2] = {paul, peter};
+                ^
+..\Aufgabe4.c:15:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:13:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: In function 'main':
+..\Aufgabe4.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+Aufgabe4.o: In function `main':
+C:\Users\Florian\syspr\Uebung2\Debug/../Aufgabe4.c:8: multiple definition of `main'
+main.o:C:\Users\Florian\syspr\Uebung2\Debug/../main.c:5: first defined here
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Hello World
+10:10:51 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+In file included from ..\main.c:2:0:
+..\Aufgabe4.h:13:16: warning: useless storage class specifier in empty declaration [enabled by default]
+ typedef struct Person;
+                ^
+..\main.c:6:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:16: warning: unused variable 'personen' [-Wunused-variable]
+  struct Person personen[2] = {paul, peter};
+                ^
+..\Aufgabe4.c:11:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Hello World
+10:11:32 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:16: warning: unused variable 'personen' [-Wunused-variable]
+  struct Person personen[2] = {paul, peter};
+                ^
+..\Aufgabe4.c:11:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+Info: Nothing to build for Hello World
+10:24:33 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:16: warning: unused variable 'personen' [-Wunused-variable]
+  struct Person personen[2] = {paul, peter};
+                ^
+..\Aufgabe4.c:11:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:10:7: warning: unused variable 'string' [-Wunused-variable]
+  char string[] = "asd";
+       ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+In file included from ..\main.c:2:0:
+..\Aufgabe4.h:15:16: warning: useless storage class specifier in empty declaration [enabled by default]
+ typedef struct Person;
+                ^
+..\main.c:6:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+Info: Nothing to build for Hello World
+10:24:57 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:2: warning: implicit declaration of function 'simple' [-Wimplicit-function-declaration]
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:17:6: warning: conflicting types for 'simple' [enabled by default]
+ void simple(int nums[], struct Person pers, struct Person personen[]) {
+      ^
+..\Aufgabe4.c:14:2: note: previous implicit declaration of 'simple' was here
+  simple(numarray, paul, personen);
+  ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+Info: Nothing to build for Hello World
+10:27:39 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+In file included from ..\main.c:2:0:
+..\Aufgabe4.h:16:16: warning: useless storage class specifier in empty declaration [enabled by default]
+ typedef struct Person;
+                ^
+..\main.c:6:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:2: warning: implicit declaration of function 'simple' [-Wimplicit-function-declaration]
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:16:2: warning: implicit declaration of function 'ref' [-Wimplicit-function-declaration]
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:19:6: warning: conflicting types for 'simple' [enabled by default]
+ void simple(int nums[], struct Person pers, struct Person personen[]) {
+      ^
+..\Aufgabe4.c:14:2: note: previous implicit declaration of 'simple' was here
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:23:6: warning: conflicting types for 'ref' [enabled by default]
+ void ref(int *nums[], struct Person *pers, struct Person *personen[]) {
+      ^
+..\Aufgabe4.c:16:2: note: previous implicit declaration of 'ref' was here
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:27:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+..\Aufgabe4.c: In function 'printPerson':
+..\Aufgabe4.c:29:2: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+  printf(p.age);
+  ^
+In file included from ..\Aufgabe4.c:1:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Hello World
+10:27:57 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:13:16: warning: unused variable 'personen' [-Wunused-variable]
+  struct Person personen[2] = {paul, peter};
+                ^
+..\Aufgabe4.c:10:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:27:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+..\Aufgabe4.c: In function 'printPerson':
+..\Aufgabe4.c:29:2: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [enabled by default]
+  printf(p.age);
+  ^
+In file included from ..\Aufgabe4.c:1:0:
+c:\mingw\include\stdio.h:279:37: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Hello World
+10:29:02 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:13:16: warning: unused variable 'personen' [-Wunused-variable]
+  struct Person personen[2] = {paul, peter};
+                ^
+..\Aufgabe4.c:10:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:27:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+Info: Nothing to build for Uebung2
+10:29:45 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:13:16: warning: unused variable 'personen' [-Wunused-variable]
+  struct Person personen[2] = {paul, peter};
+                ^
+..\Aufgabe4.c:10:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:27:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+10:30:11 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:13:16: warning: unused variable 'personen' [-Wunused-variable]
+  struct Person personen[2] = {paul, peter};
+                ^
+..\Aufgabe4.c:10:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:27:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+10:30:23 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:13:16: warning: unused variable 'personen' [-Wunused-variable]
+  struct Person personen[2] = {paul, peter};
+                ^
+..\Aufgabe4.c:10:6: warning: unused variable 'numarray' [-Wunused-variable]
+  int numarray[5] = {1,2,3,4,5};
+      ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:27:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+10:30:32 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:2: warning: implicit declaration of function 'simple' [-Wimplicit-function-declaration]
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:16:2: warning: implicit declaration of function 'ref' [-Wimplicit-function-declaration]
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:19:6: warning: conflicting types for 'simple' [enabled by default]
+ void simple(int nums[], struct Person pers, struct Person personen[]) {
+      ^
+..\Aufgabe4.c:14:2: note: previous implicit declaration of 'simple' was here
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:23:6: warning: conflicting types for 'ref' [enabled by default]
+ void ref(int *nums[], struct Person *pers, struct Person *personen[]) {
+      ^
+..\Aufgabe4.c:16:2: note: previous implicit declaration of 'ref' was here
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:27:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+10:31:00 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:2: warning: implicit declaration of function 'simple' [-Wimplicit-function-declaration]
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:16:2: warning: implicit declaration of function 'ref' [-Wimplicit-function-declaration]
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:20:6: warning: conflicting types for 'simple' [enabled by default]
+ void simple(int nums[], struct Person pers, struct Person personen[]) {
+      ^
+..\Aufgabe4.c:14:2: note: previous implicit declaration of 'simple' was here
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:24:6: warning: conflicting types for 'ref' [enabled by default]
+ void ref(int *nums[], struct Person *pers, struct Person *personen[]) {
+      ^
+..\Aufgabe4.c:16:2: note: previous implicit declaration of 'ref' was here
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:28:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+10:31:36 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:2: warning: implicit declaration of function 'simple' [-Wimplicit-function-declaration]
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:16:2: warning: implicit declaration of function 'ref' [-Wimplicit-function-declaration]
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:20:6: warning: conflicting types for 'simple' [enabled by default]
+ void simple(int nums[], struct Person pers, struct Person personen[]) {
+      ^
+..\Aufgabe4.c:14:2: note: previous implicit declaration of 'simple' was here
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:24:6: warning: conflicting types for 'ref' [enabled by default]
+ void ref(int *nums[], struct Person *pers, struct Person *personen[]) {
+      ^
+..\Aufgabe4.c:16:2: note: previous implicit declaration of 'ref' was here
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:28:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+Info: Nothing to build for Hello World
+10:31:48 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:2: warning: implicit declaration of function 'simple' [-Wimplicit-function-declaration]
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:16:2: warning: implicit declaration of function 'ref' [-Wimplicit-function-declaration]
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:20:6: warning: conflicting types for 'simple' [enabled by default]
+ void simple(int nums[], struct Person pers, struct Person personen[]) {
+      ^
+..\Aufgabe4.c:14:2: note: previous implicit declaration of 'simple' was here
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:24:6: warning: conflicting types for 'ref' [enabled by default]
+ void ref(int *nums[], struct Person *pers, struct Person *personen[]) {
+      ^
+..\Aufgabe4.c:16:2: note: previous implicit declaration of 'ref' was here
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c: In function 'ref':
+..\Aufgabe4.c:25:6: error: request for member 'age' in something not a structure or union
+  pers.age = 21;
+      ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:28:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+Info: Nothing to build for Hello World
+10:31:53 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:2: warning: implicit declaration of function 'simple' [-Wimplicit-function-declaration]
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:16:2: warning: implicit declaration of function 'ref' [-Wimplicit-function-declaration]
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:20:6: warning: conflicting types for 'simple' [enabled by default]
+ void simple(int nums[], struct Person pers, struct Person personen[]) {
+      ^
+..\Aufgabe4.c:14:2: note: previous implicit declaration of 'simple' was here
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:24:6: warning: conflicting types for 'ref' [enabled by default]
+ void ref(int *nums[], struct Person *pers, struct Person *personen[]) {
+      ^
+..\Aufgabe4.c:16:2: note: previous implicit declaration of 'ref' was here
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:28:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Hello World
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Hello World
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Hello World
+10:32:12 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:2: warning: implicit declaration of function 'simple' [-Wimplicit-function-declaration]
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:16:2: warning: implicit declaration of function 'ref' [-Wimplicit-function-declaration]
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:20:6: warning: conflicting types for 'simple' [enabled by default]
+ void simple(int nums[], struct Person pers, struct Person personen[]) {
+      ^
+..\Aufgabe4.c:14:2: note: previous implicit declaration of 'simple' was here
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:24:6: warning: conflicting types for 'ref' [enabled by default]
+ void ref(int *nums[], struct Person *pers, struct Person *personen[]) {
+      ^
+..\Aufgabe4.c:16:2: note: previous implicit declaration of 'ref' was here
+  ref(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:28:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+10:33:02 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:2: warning: implicit declaration of function 'simple' [-Wimplicit-function-declaration]
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:16:2: warning: implicit declaration of function 'ref' [-Wimplicit-function-declaration]
+  ref(&numarray, &paul, &personen);
+  ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:20:6: warning: conflicting types for 'simple' [enabled by default]
+ void simple(int nums[], struct Person pers, struct Person personen[]) {
+      ^
+..\Aufgabe4.c:14:2: note: previous implicit declaration of 'simple' was here
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:24:6: warning: conflicting types for 'ref' [enabled by default]
+ void ref(int *nums[], struct Person *pers, struct Person *personen[]) {
+      ^
+..\Aufgabe4.c:16:2: note: previous implicit declaration of 'ref' was here
+  ref(&numarray, &paul, &personen);
+  ^
+..\Aufgabe4.c:28:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+10:35:22 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:2: warning: implicit declaration of function 'simple' [-Wimplicit-function-declaration]
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:16:2: warning: implicit declaration of function 'ref' [-Wimplicit-function-declaration]
+  ref(&numarray, &paul, &personen);
+  ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:20:6: warning: conflicting types for 'simple' [enabled by default]
+ void simple(int nums[], struct Person pers, struct Person personen[]) {
+      ^
+..\Aufgabe4.c:14:2: note: previous implicit declaration of 'simple' was here
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:24:6: warning: conflicting types for 'ref' [enabled by default]
+ void ref(int *nums[], struct Person *pers, struct Person *personen[]) {
+      ^
+..\Aufgabe4.c:16:2: note: previous implicit declaration of 'ref' was here
+  ref(&numarray, &paul, &personen);
+  ^
+..\Aufgabe4.c:28:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+10:35:41 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabe4.o "..\\Aufgabe4.c" 
+..\Aufgabe4.c: In function 'Aufgabe4':
+..\Aufgabe4.c:14:2: warning: implicit declaration of function 'simple' [-Wimplicit-function-declaration]
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:15:2: warning: implicit declaration of function 'printPerson' [-Wimplicit-function-declaration]
+  printPerson(paul);
+  ^
+..\Aufgabe4.c:16:2: warning: implicit declaration of function 'ref' [-Wimplicit-function-declaration]
+  ref(&numarray, &paul, &personen);
+  ^
+..\Aufgabe4.c:9:8: warning: unused variable 'f' [-Wunused-variable]
+  float f = 3.1416;
+        ^
+..\Aufgabe4.c: At top level:
+..\Aufgabe4.c:20:6: warning: conflicting types for 'simple' [enabled by default]
+ void simple(int nums[], struct Person pers, struct Person personen[]) {
+      ^
+..\Aufgabe4.c:14:2: note: previous implicit declaration of 'simple' was here
+  simple(numarray, paul, personen);
+  ^
+..\Aufgabe4.c:25:6: warning: conflicting types for 'ref' [enabled by default]
+ void ref(int *nums[], struct Person *pers, struct Person *personen[]) {
+      ^
+..\Aufgabe4.c:16:2: note: previous implicit declaration of 'ref' was here
+  ref(&numarray, &paul, &personen);
+  ^
+..\Aufgabe4.c:29:6: warning: conflicting types for 'printPerson' [enabled by default]
+ void printPerson(struct Person p) {
+      ^
+..\Aufgabe4.c:15:2: note: previous implicit declaration of 'printPerson' was here
+  printPerson(paul);
+  ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+10:38:13 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+In file included from ..\main.c:2:0:
+..\Aufgabe4.h:16:16: warning: useless storage class specifier in empty declaration [enabled by default]
+ typedef struct Person;
+                ^
+..\main.c:6:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'aufg3':
+..\main.c:37:3: warning: conversion lacks type at end of format [-Wformat=]
+   printf("%0*%d: %c |" , 3, c, c);
+   ^
+..\main.c: In function 'main':
+..\main.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+10:38:25 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+In file included from ..\main.c:2:0:
+..\Aufgabe4.h:16:16: warning: useless storage class specifier in empty declaration [enabled by default]
+ typedef struct Person;
+                ^
+..\main.c:6:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:9:2: warning: implicit declaration of function 'aufg3' [-Wimplicit-function-declaration]
+  aufg3();
+  ^
+..\main.c: At top level:
+..\main.c:34:6: warning: conflicting types for 'aufg3' [enabled by default]
+ void aufg3() {
+      ^
+..\main.c:9:2: note: previous implicit declaration of 'aufg3' was here
+  aufg3();
+  ^
+..\main.c: In function 'aufg3':
+..\main.c:37:3: warning: conversion lacks type at end of format [-Wformat=]
+   printf("%0*%d: %c |" , 3, c, c);
+   ^
+..\main.c: In function 'main':
+..\main.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+10:38:37 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+In file included from ..\main.c:2:0:
+..\Aufgabe4.h:16:16: warning: useless storage class specifier in empty declaration [enabled by default]
+ typedef struct Person;
+                ^
+..\main.c:6:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:9:2: warning: implicit declaration of function 'aufg3' [-Wimplicit-function-declaration]
+  aufg3();
+  ^
+..\main.c: At top level:
+..\main.c:34:6: warning: conflicting types for 'aufg3' [enabled by default]
+ void aufg3() {
+      ^
+..\main.c:9:2: note: previous implicit declaration of 'aufg3' was here
+  aufg3();
+  ^
+..\main.c: In function 'main':
+..\main.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+10:39:37 **** Incremental Build of configuration Debug for project Uebung2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+In file included from ..\main.c:2:0:
+..\Aufgabe4.h:16:16: warning: useless storage class specifier in empty declaration [enabled by default]
+ typedef struct Person;
+                ^
+..\main.c:6:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main() {
+ ^
+..\main.c: In function 'main':
+..\main.c:9:2: warning: implicit declaration of function 'aufg3' [-Wimplicit-function-declaration]
+  aufg3();
+  ^
+..\main.c: At top level:
+..\main.c:34:6: warning: conflicting types for 'aufg3' [enabled by default]
+ void aufg3() {
+      ^
+..\main.c:9:2: note: previous implicit declaration of 'aufg3' was here
+  aufg3();
+  ^
+..\main.c: In function 'main':
+..\main.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung2.exe main.o Aufgabe4.o 
+Info: Nothing to build for Uebung2

@@ -1,0 +1,15 @@
+/*
+ * Aufgabe4.h
+ *
+ *  Created on: 03.03.2014
+ *      Author: Florian
+ */
+
+#ifndef AUFGABE4_H_
+#define AUFGABE4_H_
+
+void Aufgabe4();
+
+struct Struktur;
+
+#endif /* AUFGABE4_H_ */
