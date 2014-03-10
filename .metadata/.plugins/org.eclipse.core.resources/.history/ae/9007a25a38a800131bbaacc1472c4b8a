@@ -1,0 +1,13 @@
+/*
+ * main.c
+ *
+ *  Created on: 10.03.2014
+ *      Author: Florian
+ */
+#include <stdio.h>
+
+int main(int argc, char **argv) {
+	mkdir(argv[1]);
+	mkdir(argv[2]);
+}
+

@@ -3151,3 +3151,257 @@ Info: Nothing to build for Hello World
 Info: Nothing to build for Lektion4
 Info: Nothing to build for Uebung2
 Info: Nothing to build for Uebung3
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3
+10:40:58 **** Rebuild of configuration Debug for project Uebung4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung4.exe main.o 
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3
+10:41:06 **** Incremental Build of configuration Debug for project Uebung4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:10:2: warning: implicit declaration of function 'mkdir' [-Wimplicit-function-declaration]
+  mkdir(argv[1]);
+  ^
+..\main.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung4.exe main.o 
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3
+10:41:10 **** Incremental Build of configuration Debug for project Uebung4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:10:2: warning: implicit declaration of function 'mkdir' [-Wimplicit-function-declaration]
+  mkdir(argv[1]);
+  ^
+..\main.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung4.exe main.o 
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3
+10:42:57 **** Incremental Build of configuration Debug for project Uebung4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:10:2: warning: implicit declaration of function 'mkdir' [-Wimplicit-function-declaration]
+  mkdir(argv[1]);
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'copy' [-Wimplicit-function-declaration]
+  copy(argv[3], argv[1] + argv[3]);
+  ^
+..\main.c:12:24: error: invalid operands to binary + (have 'char *' and 'char *')
+  copy(argv[3], argv[1] + argv[3]);
+                        ^
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3
+10:46:59 **** Incremental Build of configuration Debug for project Uebung4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:10:2: warning: implicit declaration of function 'mkdir' [-Wimplicit-function-declaration]
+  mkdir(argv[1]);
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'copy' [-Wimplicit-function-declaration]
+  copy(argv[3], argv[1] + argv[3]);
+  ^
+..\main.c:12:24: error: invalid operands to binary + (have 'char *' and 'char *')
+  copy(argv[3], argv[1] + argv[3]);
+                        ^
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3
+10:47:21 **** Incremental Build of configuration Debug for project Uebung4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:10:2: warning: implicit declaration of function 'mkdir' [-Wimplicit-function-declaration]
+  mkdir(argv[1]);
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'copy' [-Wimplicit-function-declaration]
+  copy();
+  ^
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung4.exe main.o 
+main.o: In function `main':
+C:\Users\Florian\syspr\Uebung4\Debug/../main.c:12: undefined reference to `copy'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3
+10:47:32 **** Incremental Build of configuration Debug for project Uebung4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:10:2: warning: implicit declaration of function 'mkdir' [-Wimplicit-function-declaration]
+  mkdir(argv[1]);
+  ^
+..\main.c:12:2: warning: implicit declaration of function 'copy' [-Wimplicit-function-declaration]
+  copy(argv[3], argv[1]);
+  ^
+..\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung4.exe main.o 
+main.o: In function `main':
+C:\Users\Florian\syspr\Uebung4\Debug/../main.c:12: undefined reference to `copy'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3
+10:50:51 **** Incremental Build of configuration Debug for project Uebung4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:10:2: warning: implicit declaration of function 'mkdir' [-Wimplicit-function-declaration]
+  mkdir(argv[1]);
+  ^
+..\main.c:18:2: warning: implicit declaration of function 'strcat' [-Wimplicit-function-declaration]
+  FILE *input = fopen(strcat(argv[1], argv[3]), "rb");
+  ^
+..\main.c:18:22: warning: incompatible implicit declaration of built-in function 'strcat' [enabled by default]
+  FILE *input = fopen(strcat(argv[1], argv[3]), "rb");
+                      ^
+..\main.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung4.exe main.o 
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3
+10:51:47 **** Incremental Build of configuration Debug for project Uebung4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:10:2: warning: implicit declaration of function 'mkdir' [-Wimplicit-function-declaration]
+  mkdir(argv[1]);
+  ^
+..\main.c:13:2: warning: implicit declaration of function 'strcat' [-Wimplicit-function-declaration]
+  FILE *output = fopen(strcat(argv[1], argv[3]), "wb");
+  ^
+..\main.c:13:23: warning: incompatible implicit declaration of built-in function 'strcat' [enabled by default]
+  FILE *output = fopen(strcat(argv[1], argv[3]), "wb");
+                       ^
+..\main.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung4.exe main.o 
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3
+10:52:20 **** Incremental Build of configuration Debug for project Uebung4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:10:2: warning: implicit declaration of function 'mkdir' [-Wimplicit-function-declaration]
+  mkdir(argv[1]);
+  ^
+..\main.c:13:2: warning: implicit declaration of function 'strcat' [-Wimplicit-function-declaration]
+  FILE *output = fopen(strcat(strcat(argv[1], "\"), argv[3]), "wb");
+  ^
+..\main.c:13:23: warning: incompatible implicit declaration of built-in function 'strcat' [enabled by default]
+  FILE *output = fopen(strcat(strcat(argv[1], "\"), argv[3]), "wb");
+                       ^
+..\main.c:13:63: error: expected ')' before 'wb'
+  FILE *output = fopen(strcat(strcat(argv[1], "\"), argv[3]), "wb");
+                                                               ^
+..\main.c:13:65: warning: missing terminating " character [enabled by default]
+  FILE *output = fopen(strcat(strcat(argv[1], "\"), argv[3]), "wb");
+                                                                 ^
+..\main.c:13:63: error: missing terminating " character
+  FILE *output = fopen(strcat(strcat(argv[1], "\"), argv[3]), "wb");
+                                                               ^
+..\main.c:30:1: error: expected ')' before '}' token
+ }
+ ^
+..\main.c:30:1: error: too few arguments to function 'strcat'
+..\main.c:30:1: error: expected ')' before '}' token
+..\main.c:30:1: error: too few arguments to function 'fopen'
+In file included from ..\main.c:7:0:
+c:\mingw\include\stdio.h:165:39: note: declared here
+ _CRTIMP FILE* __cdecl __MINGW_NOTHROW fopen (const char*, const char*);
+                                       ^
+..\main.c:30:1: error: expected ',' or ';' before '}' token
+ }
+ ^
+..\main.c:30:1: error: expected declaration or statement at end of input
+..\main.c:13:8: warning: unused variable 'output' [-Wunused-variable]
+  FILE *output = fopen(strcat(strcat(argv[1], "\"), argv[3]), "wb");
+        ^
+..\main.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3
+10:53:39 **** Incremental Build of configuration Debug for project Uebung4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:10:2: warning: implicit declaration of function 'mkdir' [-Wimplicit-function-declaration]
+  mkdir(argv[1]);
+  ^
+..\main.c:13:2: warning: implicit declaration of function 'strcat' [-Wimplicit-function-declaration]
+  FILE *output = fopen(strcat(strcat(argv[1], "/"), argv[3]), "wb");
+  ^
+..\main.c:13:23: warning: incompatible implicit declaration of built-in function 'strcat' [enabled by default]
+  FILE *output = fopen(strcat(strcat(argv[1], "/"), argv[3]), "wb");
+                       ^
+..\main.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung4.exe main.o 
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3
+10:54:13 **** Incremental Build of configuration Debug for project Uebung4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:10:2: warning: implicit declaration of function 'mkdir' [-Wimplicit-function-declaration]
+  mkdir(argv[1]);
+  ^
+..\main.c:13:2: warning: implicit declaration of function 'strcat' [-Wimplicit-function-declaration]
+  FILE *output = fopen(strcat(strcat(argv[1], "\\"), argv[3]), "wb");
+  ^
+..\main.c:13:23: warning: incompatible implicit declaration of built-in function 'strcat' [enabled by default]
+  FILE *output = fopen(strcat(strcat(argv[1], "\\"), argv[3]), "wb");
+                       ^
+..\main.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Uebung4.exe main.o 

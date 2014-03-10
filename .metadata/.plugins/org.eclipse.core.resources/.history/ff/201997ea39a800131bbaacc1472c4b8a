@@ -1,0 +1,31 @@
+/*
+ * main.c
+ *
+ *  Created on: 10.03.2014
+ *      Author: Florian
+ */
+#include <stdio.h>
+
+int main(int argc, char **argv) {
+	mkdir(argv[1]);
+	mkdir(argv[2]);
+
+	FILE *output = fopen(strcat(strcat(argv[1], "/"), argv[3]), "wb");
+	if (output == NULL) {
+		printf("Error while writing");
+		return 1;
+	}
+	FILE *input = fopen(argv[3], "rb");
+	if(input == NULL) {
+		printf("Error while opening file");
+		return 1;
+	}
+	int c;
+	while((c = fgetc(input)) != EOF) {
+		fputc(c, output);
+	}
+	fclose(input);
+	fclose(output);
+
+}
+
