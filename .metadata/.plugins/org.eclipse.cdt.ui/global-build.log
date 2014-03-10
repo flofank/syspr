@@ -3008,3 +3008,146 @@ In file included from ..\main.c:2:0:
  ^
 gcc -o Uebung2.exe main.o Aufgabe4.o 
 Info: Nothing to build for Uebung2
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+10:20:08 **** Rebuild of configuration Debug for project Uebung3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main(int argc, char **argv) {
+ ^
+..\main.c: In function 'main':
+..\main.c:21:14: warning: initialization makes integer from pointer without a cast [enabled by default]
+  char oopt = "wba";
+              ^
+..\main.c:22:29: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  if (!(argc == 4 && argv[3] == "/a")) {
+                             ^
+..\main.c:23:7: error: subscripted value is neither array nor pointer nor vector
+   oopt[2] = NULL;
+       ^
+..\main.c:25:2: warning: passing argument 2 of 'fopen' makes pointer from integer without a cast [enabled by default]
+  FILE *output = fopen(argv[2], oopt);
+  ^
+In file included from ..\main.c:7:0:
+c:\mingw\include\stdio.h:165:39: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP FILE* __cdecl __MINGW_NOTHROW fopen (const char*, const char*);
+                                       ^
+..\main.c:28:3: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+   return;
+   ^
+..\main.c:33:3: warning: implicit declaration of function 'fput' [-Wimplicit-function-declaration]
+   fput(c, output);
+   ^
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+10:21:06 **** Incremental Build of configuration Debug for project Uebung3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:21:14: warning: initialization makes integer from pointer without a cast [enabled by default]
+  char oopt = "wba";
+              ^
+..\main.c:22:29: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  if (!(argc == 4 && argv[3] == "/a")) {
+                             ^
+..\main.c:23:7: error: subscripted value is neither array nor pointer nor vector
+   oopt[2] = NULL;
+       ^
+..\main.c:25:2: warning: passing argument 2 of 'fopen' makes pointer from integer without a cast [enabled by default]
+  FILE *output = fopen(argv[2], oopt);
+  ^
+In file included from ..\main.c:7:0:
+c:\mingw\include\stdio.h:165:39: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP FILE* __cdecl __MINGW_NOTHROW fopen (const char*, const char*);
+                                       ^
+..\main.c:28:3: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+   return;
+   ^
+..\main.c:33:3: warning: implicit declaration of function 'fput' [-Wimplicit-function-declaration]
+   fput(c, output);
+   ^
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+10:21:12 **** Incremental Build of configuration Debug for project Uebung3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:21:14: warning: initialization makes integer from pointer without a cast [enabled by default]
+  char oopt = "wba";
+              ^
+..\main.c:22:29: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  if (!(argc == 4 && argv[3] == "/a")) {
+                             ^
+..\main.c:23:7: error: subscripted value is neither array nor pointer nor vector
+   oopt[2] = NULL;
+       ^
+..\main.c:25:2: warning: passing argument 2 of 'fopen' makes pointer from integer without a cast [enabled by default]
+  FILE *output = fopen(argv[2], oopt);
+  ^
+In file included from ..\main.c:7:0:
+c:\mingw\include\stdio.h:165:39: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP FILE* __cdecl __MINGW_NOTHROW fopen (const char*, const char*);
+                                       ^
+..\main.c:33:3: warning: implicit declaration of function 'fput' [-Wimplicit-function-declaration]
+   fput(c, output);
+   ^
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+10:21:37 **** Incremental Build of configuration Debug for project Uebung3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:29: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  if (!(argc == 4 && argv[3] == "/a")) {
+                             ^
+..\main.c:23:11: warning: assignment makes integer from pointer without a cast [enabled by default]
+   oopt[2] = NULL;
+           ^
+..\main.c:33:3: warning: implicit declaration of function 'fput' [-Wimplicit-function-declaration]
+   fput(c, output);
+   ^
+gcc -o Uebung3.exe main.o 
+main.o: In function `main':
+C:\Users\Florian\syspr\Uebung3\Debug/../main.c:33: undefined reference to `fput'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+10:21:45 **** Incremental Build of configuration Debug for project Uebung3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:29: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  if (!(argc == 4 && argv[3] == "/a")) {
+                             ^
+..\main.c:23:11: warning: assignment makes integer from pointer without a cast [enabled by default]
+   oopt[2] = NULL;
+           ^
+gcc -o Uebung3.exe main.o 
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+10:25:04 **** Incremental Build of configuration Debug for project Uebung3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:29: warning: comparison with string literal results in unspecified behavior [-Waddress]
+  if (!(argc == 4 && argv[3] == "/a")) {
+                             ^
+..\main.c:23:11: warning: assignment makes integer from pointer without a cast [enabled by default]
+   oopt[2] = NULL;
+           ^
+gcc -o Uebung3.exe main.o 
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3
+Info: Nothing to build for Hello World
+Info: Nothing to build for Lektion4
+Info: Nothing to build for Uebung2
+Info: Nothing to build for Uebung3

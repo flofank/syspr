@@ -6,7 +6,7 @@
  */
 #include <stdio.h>
 
-int main(int argc, char **argv) {
+main(int argc, char **argv) {
 	if (argc < 3) {
 		printf("to few arguments");
 		return 1;
@@ -18,19 +18,19 @@ int main(int argc, char **argv) {
 		return 1;
 	}
 
-	char oopt[] = "wba";
+	char oopt = "wba";
 	if (!(argc == 4 && argv[3] == "/a")) {
 		oopt[2] = NULL;
 	}
 	FILE *output = fopen(argv[2], oopt);
 	if (output == NULL) {
 		printf("Error while writing");
-		return 1;
+		return;
 	}
 
 	int c;
-	while((c = fgetc(input)) != EOF) {
-		fputc(c, output);
+	while((c = fgetc(input) != EOF)) {
+		fput(c, output);
 	}
 	fclose(input);
 	fclose(output);

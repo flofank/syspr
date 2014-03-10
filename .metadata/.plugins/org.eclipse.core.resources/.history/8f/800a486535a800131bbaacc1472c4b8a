@@ -29,8 +29,8 @@ int main(int argc, char **argv) {
 	}
 
 	int c;
-	while((c = fgetc(input)) != EOF) {
-		fputc(c, output);
+	while((c = fgetc(input) != EOF)) {
+		fput(c, output);
 	}
 	fclose(input);
 	fclose(output);
